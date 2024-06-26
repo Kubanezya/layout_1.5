@@ -12,6 +12,6 @@ mql.addEventListener('change', (e) => {
       init: true
     });
   } else {
-    swiper.destroy();
+    newSwiper.destroy();
   }
 })
