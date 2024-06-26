@@ -45,6 +45,6 @@ btnMore.onclick = function(){
      else{
         btnMore.textContent='Показать все';
         iconShow.style.transform='rotate(0deg)'
-        swpHght.style.height='200px';
+        swpHght.style.height='210px';
     }
     };
