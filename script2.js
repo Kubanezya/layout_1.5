@@ -15,7 +15,7 @@ function mobileSlider(){
     }
 });
  swiper.dataset.mobile = 'true';
- document.querySelector('.swiper').style.height = '120px'; 
+ ///document.querySelector('.swiper').style.height = '120px'; 
 }
 
 if (window.innerWidth >= 768) {
