@@ -15,13 +15,15 @@ function mobileSlider(){
     }
 });
  swiper.dataset.mobile = 'true';
+ document.querySelector('.swiper').style.height = '120px'; 
 }
 
 if (window.innerWidth >= 768) {
   swiper.dataset.mobile = 'false';
   
+  
   if(swiper.classList.contains('swiper-initialized')){
-    mySwiper.destroy(true, true); 
+    mySwiper.destroy(true, true);
     }
   }
 }

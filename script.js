@@ -25,7 +25,7 @@ else {
 
 window.addEventListener('resize', () => {
   var swp_disbl;
-  if (window.innerWidth>=768 & !swp_disbl){swiper_mode(swp_disbl);
+  if (window.innerWidth>=768 && !swp_disbl){swiper_mode(swp_disbl);
     console.log('off');
     swp_disbl=true;
   }
