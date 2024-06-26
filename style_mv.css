@@ -1,0 +1,50 @@
+.service-nav{
+    display: flex; 
+    flex-direction: row; 
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 24px 20px;
+    padding-right: 0;
+}
+
+.swiper {
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    justify-content: flex-start;
+    width: 224px;        
+} 
+
+.show-more{
+    display: flex;
+
+
+}
+
+.icon-show{
+    background-image: url("ic/expand.png");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    transform: rotate(0deg);
+    transition-duration: 1500ms;
+    
+
+}
+
+
+.btn-more{
+    display: inline-block;
+    height: 24px;
+    vertical-align: middle;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    
+}
