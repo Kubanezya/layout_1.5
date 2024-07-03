@@ -35,7 +35,8 @@
  
 .swiper{
     width: 100vw;
-    height: 120px; 
+    height: 140px;
+    padding-top: 20px; 
 }
 
 .swiper-pagination-bullet{

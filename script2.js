@@ -5,7 +5,8 @@ function mobileSlider(){
   if (window.innerWidth < 768 && swiper.dataset.mobile == 'false') {  
     mySwiper = new Swiper(swiper, {
     direction: 'horizontal',
-    slidesOffsetBefore: 16,  
+    slidesOffsetBefore: 16, 
+    
     loop: true,
     spaceBetween: 16,
     slidesPerView: 'auto',
@@ -15,7 +16,7 @@ function mobileSlider(){
     }
 });
  swiper.dataset.mobile = 'true';
- document.querySelector('.swiper').style.height = '120px'; 
+ document.querySelector('.swiper').style.height = '140px'; 
 }
 
 if (window.innerWidth >= 768) {
